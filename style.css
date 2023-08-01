@@ -1,0 +1,73 @@
+body{
+    background-color: #f0f0f0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header h1{
+text-align: center;
+padding: 20px;
+background-color: #333;
+color: #fff;
+font-size: 2em;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+letter-spacing: 2px;
+text-transform:uppercase;
+}
+
+.gallery{
+max-width: 800px;
+margin: 0 auto;
+padding: 1rem;
+border: 2px solid pink;
+
+}
+
+.photo-card {
+    flex: 1;
+    flex: 1 0 200px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+.photo-card{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.photo-card img{
+    max-width: 100%;
+    height: auto;
+    flex: 1 0 200px;
+    text-align: center;
+
+}
+
+.gallery{
+display: flex;
+flex-wrap: wrap;
+gap: 1rem;
+justify-content: center;
+}
+
+.photo-card:hover{
+    transform: scale(1.05);
+}
+
+.photo-card h2{
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.description{
+    font-size: 1rem;
+    color: #666;
+    margin: 0.5rem 0;
+}
+.date{
+    font-size: 0.8rem;
+    color: #999;
+}
+
+
